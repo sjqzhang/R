@@ -266,6 +266,58 @@ if(F){
   
 
 
+#Statament 语句
+
+if(TRUE) {
+  
+  print("IF语句")
+  
+} 
+
+if(FALSE){
+  
+} else if(TRUE) {
+  print("else if 语句")
+  
+}
+
+
+i<-100
+while(i>0) {
+  
+  i<-i-1
+  print(i)
+}
+
+for(i in 1:100) {
+  
+  print(i)
+  
+}
+
+for(i in seq(1:100)){
+  
+  if(i==50) {
+    break;
+  }
+  
+  print(i)
+}
+
+
+sw<-c("a","b","c")
+
+for(i in sw){
+  switch(i,
+   "a"=print("abc"),
+   "def"=print("def")
+  )
+}
+
+
+
+
+
 a<-1:10  # 1-10向量
 
 
